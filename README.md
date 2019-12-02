@@ -1,5 +1,5 @@
 # Notes-ES2015-2016-2017
-
+## this
 Never use `Arrow function` in method.
 
 ```Javascript
@@ -55,3 +55,17 @@ var instructor{
 
 instructor.sayHi();  //Hello Elie
 ```
+
+## default parameter
+```Javascript
+function add(a=10, b=20){
+  return a+b;
+}
+
+add();  //30
+add(30);  //50
+add(30, 40);   //70
+```
+
+
+
