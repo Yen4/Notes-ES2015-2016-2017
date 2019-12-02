@@ -67,5 +67,23 @@ add(30);  //50
 add(30, 40);   //70
 ```
 
+## for...of iteration
+for...of loop can't be used in object. Check the `__proto__`, no iteration method.
+```Javascript
+var arr = [1,2,3,4,5];
+
+for(let val of arr){
+  console.log(val)
+}
+
+//1
+//2
+//3
+//4
+//5
+```
+
+
+
 
 
